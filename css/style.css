@@ -1,0 +1,220 @@
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  background-color: #888;
+  padding: 20px 70px;
+}
+
+nav ul li {
+  font-size: 20px;
+  padding: 8px 16px;
+  margin: 0 4px;
+  border: solid #fff 1px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* ここからトップの内容 */
+
+#top {
+  height: 600px;
+  background: url(../img/top.png) no-repeat center;
+  background-size: cover;
+}
+
+.top_wrap h1 {
+  font-size: 30px;
+  color: #fff;
+  background-color: #007;
+  padding: 20px 50px;
+  float: right;
+  margin: 275px;
+  /* border-radius: 16%; */
+}
+
+.top_wrap div {
+  display: none;
+  color: #fff;
+  font-size: 28px;
+  background-color:rgba(64, 64, 64, .5);
+  margin: 60px 0;
+  padding: 8px 32px;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 600px) {
+  #top {
+    background-image: url(../img/top.png);
+    background-position: 10% 90%;
+  }
+
+  .top_wrap {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 426px;
+    height: inherit;
+  }
+
+  .top_wrap h1 {
+    display: inline-block;
+    width: 280px;
+    margin: 40px;
+    ;
+  }
+
+  .top_wrap div {
+    display: block;
+  }
+}
+
+#service {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.section_title {
+  font-size: 40px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #75d5ff;
+}
+
+.service_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service_left {
+  width: 60%;
+}
+
+.service_left img {
+  width: 80%;
+  height: auto;
+  max-width: 380px;
+  min-width: 240px;
+}
+
+.service_right h3 {
+  color: #75d5ff;
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.service_right p {
+  font-size: 15px;
+  color: #555;
+  line-height:2;
+}
+
+#news {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.news_wrap {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.news_wrap {
+  line-height: 2.5;
+}
+
+#price {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.price_wrap table {
+  border: double #75d5ff;
+  width: 100%;
+  text-align: center;
+}
+
+.price_wrap table tr {
+  border: solid #75d5ff 2px;
+  padding: 10px;
+}
+
+.price_wrap table th {
+  border: solid #75d5ff 2px;
+  padding: 10px;
+}
+
+
+.price_wrap table td {
+  border: solid #75d5ff 2px;
+  padding: 10px;
+}
+
+#contact {
+  background: rgb(241, 241, 241);
+}
+
+#contact h2 {
+  padding:40px 0;
+}
+
+.form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+label {
+  display: inline-block;
+  width: 30%;
+  line-height: 2;
+}
+
+input, textarea {
+  box-sizing: border-box;
+  border: solid #ddd 1px;
+  width: 65%;
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 6px;
+}
+
+textarea {
+  vertical-align: top;
+  height: 200px;
+}
+
+.button_submit {
+  text-align: center;
+}
+
+.button {
+  padding: 10px 50px;
+  background-color: #555;
+  margin: 50px 0;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+}
+
+#contact nav {
+  text-align: center;
+  padding: 32px;
+}
+
+#contact nav a {
+  text-decoration: none;
+    color: #555;
+}
+
+#bottom {
+  background-color: #444;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+}
